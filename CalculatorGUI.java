@@ -28,6 +28,11 @@ public class CalculatorGUI implements ActionListener{
 	JButton btnMultiply;
 	JButton btnDivide;
 	
+	final String ADD = "ADD";
+	final String SUBRACT = "SUBTRACT";
+	final String MULTIPLY = "MULTIPLY";
+	final String DIVIDE = "DIVIDE";
+	
 
     CalculatorGUI() {  
         JFrame frame = new JFrame();  
@@ -47,22 +52,22 @@ public class CalculatorGUI implements ActionListener{
 		tbox2.setBounds(X_COORD,Y_COORD+HEIGHT+SEPERATOR,WIDTH,HEIGHT);  
 
 		// Create Add Button
-        btnAdd = new JButton("ADD");  
+        btnAdd = new JButton(ADD);  
         btnAdd.setBounds(X_COORD,Y_COORD+2*HEIGHT+2*SEPERATOR,BUTTON_WIDTH,BUTTON_HEIGHT);  
         btnAdd.addActionListener(this);  
 
 		// Create Subtract Button
-		btnSubtract = new JButton("SUBTRACT");  
+		btnSubtract = new JButton(SUBTRACT);  
 		btnSubtract.setBounds(X_COORD,Y_COORD+4*HEIGHT+3*SEPERATOR,BUTTON_WIDTH,BUTTON_HEIGHT);  
 		btnSubtract.addActionListener(this);  
 
 		// Create Multiply Button
-		btnMultiply = new JButton("MULTIPLY");  
+		btnMultiply = new JButton(MULTIPLY);  
 		btnMultiply.setBounds(X_COORD,Y_COORD+6*HEIGHT+4*SEPERATOR,BUTTON_WIDTH,BUTTON_HEIGHT);  
 		btnMultiply.addActionListener(this);  
 
 		// Create Divide Button
-		btnDivide = new JButton("DIVIDE");  
+		btnDivide = new JButton(DIVIDE);  
 		btnDivide.setBounds(X_COORD,Y_COORD+8*HEIGHT+5*SEPERATOR,BUTTON_WIDTH,BUTTON_HEIGHT);  
 		btnDivide.addActionListener(this);  
 
@@ -103,19 +108,19 @@ public class CalculatorGUI implements ActionListener{
     }  
 	
 	public void performAction(String action, double num1, double num2) {
-		if(action.equals("ADD")) {
+		if(action.equals(ADD)) {
 				lblResult.setText(num1 + " + " + num2 + " = " + (num1+num2));  
 		}
 		else
-		if(action.equals("SUBTRACT")) {
+		if(action.equals(SUBTRACT)) {
 			lblResult.setText(num1 + " - " + num2 + " = " + (num1-num2));  
 		}
 		else
-		if(action.equals("MULTIPLY")) {
+		if(action.equals(MULTIPLY)) {
 			lblResult.setText(num1 + " * " + num2 + " = " + (num1*num2));  
 		}
 		else
-		if(action.equals("DIVIDE")) {
+		if(action.equals(DIVIDE)) {
 			lblResult.setText(num1 + " / " + num2 + " = " + (num1 / num2));  
 		}
 	}
