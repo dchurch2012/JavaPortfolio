@@ -30,7 +30,8 @@ import java.io.Serializable;
 /**
  * A Swing program that demonstrates how to create and use JComboBox component.
  * 
- * @author www.codejava.net
+ * @see www.codejava.net
+ * @author David Church
  * 
  */
 public class AverageGUI extends JFrame {
