@@ -1,0 +1,70 @@
+==============================================================================================================================
+Code Portfolio Creation in Java
+==============================================================================================================================
+<Week of September 23, 2018>
+
+<Extend the Java Project Calculator>
+
+1.	Add the following method to the CalculatorDemo class
+
+	1.1	A menu that displays the following:
+
+
+	1.2	The Math Calculator
+
+		Enter add to add
+		Enter sub to subtract
+		Enter mult to multiply
+		Enter div to divide
+
+	
+2.	Call the appropriate method based on the menu selction
+
+3.	Hint: Store the response in a String;
+
+	Algorithm:
+
+	3.1	IF response = "add" Then
+			add
+		ELSE
+		IF respone = "sub" Then
+			subtract
+		ELSE
+		IF response = "mult" Then
+			multiply
+		ELSE
+		IF response = "div" Then
+			divide
+		ELSE
+			display error message
+
+		ENDIF
+
+	3.2	Sample:
+
+		String response = scan.nextLine();
+
+		if(response.equals("add")) {
+			num3 = add(num1,num2);
+		else
+		if(response.equals("sub")) {
+			num3 = subtract(num1, num2);
+		}
+		
+
+		.
+		.
+		.
+		etc.			
+==============================================================================================================================
+==============================================================================================================================
+Directions:
+
+When the above works, have me check you off.
+==============================================================================================================================
+==============================================================================================================================
+
+
+
+		
+		

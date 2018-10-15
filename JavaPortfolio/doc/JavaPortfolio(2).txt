@@ -1,0 +1,42 @@
+==============================================================================================================================
+Code Portfolio Creation in Java
+==============================================================================================================================
+<Week of September 23, 2018>
+
+<Extend the Java Project Calculator>
+
+1.	Create 2 class variables:
+
+	private double num1 = 0;
+	private double num2 = 0;
+	
+
+2.	Add a constructor (to the Calculator class) that has the following prototype:
+
+	public Calculator(double num1, double num2) {
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+
+
+3.	Create a new add method that accepts no arguments:
+
+		3.1	public double add()
+		3.2	public double subtract()
+		3.1	public double multiply()
+		3.1	public double divide()
+		
+4.	Perform the same operation as before BUT:
+		4.1	Use the internal class num1 and num2 for the add, subtract, multiply and divide.
+		
+
+5.	Add code to your CalculatorDemo class to use the new Constructor and methods.
+==============================================================================================================================
+==============================================================================================================================
+Directions:
+
+When the above works, have me check you off.
+==============================================================================================================================
+==============================================================================================================================
+
+

@@ -1,0 +1,41 @@
+==============================================================================================================================
+Code Portfolio Creation in Java
+==============================================================================================================================
+<Week of September 23, 2018>
+
+<Extend the Java Project Calculator>
+
+1.	Add the following method to the Calculator class
+
+	1.1	boolean isPrime(double number)
+	
+2.	The method needs to :
+
+	2.1	Determine if the number passed-in is a prime number.
+	
+	2.2	How to Do?
+	
+		2.2.1	If a number IS prime, it is NOT divisble by 2
+		
+		2.2.2	Exception : If the number IS 2, the number IS prime (2 is defined as being prime).
+		
+		2.2.3	Given the above, the algorithm would be:
+		
+				If number is divisible by 2
+				THEN
+					Return False
+				ELSE
+					Return True
+					
+==============================================================================================================================
+==============================================================================================================================
+Directions:
+
+When the above works, have me check you off.
+==============================================================================================================================
+==============================================================================================================================
+
+
+
+		
+		

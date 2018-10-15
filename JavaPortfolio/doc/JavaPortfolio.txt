@@ -1,0 +1,65 @@
+==============================================================================================================================
+Code Portfolio Creation in Java
+==============================================================================================================================
+<Week of September 16, 2018>
+
+1.	Create a Java Project called Calculator
+2. 	Create a class called Calculator in the Calcultor Project
+3.	Add the following methods to the Calculator class:
+
+	3.1	add	
+		
+		3.1.1	Accepts:	2 doubles
+		3.1.2	Returns:	1 double	(the sum of the 2 doubles passed into the method)
+
+
+	3.2	subtract	
+		
+		3.2.1	Accepts:	2 doubles
+		3.2.2	Returns:	1 double	(the difference of the 2 doubles passed into the method)
+		
+		
+	3.3	multiply	
+		
+		3.3.1	Accepts:	2 doubles
+		3.3.2	Returns:	1 double	(the product (multiplication) of the 2 doubles passed into the method)
+		
+	3.4	multiply	
+		
+		3.4.1	Accepts:	2 doubles
+		3.4.2	Returns:	1 double	(the quotient (division) of the 2 doubles passed into the method)
+
+4.	Create a Java Project called CalcultorDemo
+5.	Create a class called CalculatorDemo in the CalcultorDemo Project
+3.	Add the following methods to the Calculator class:
+
+	public static void main(String[] args) {
+	
+	}
+
+4.	From the method main, perform the following:
+
+
+	4.1		Create an instance of the Calculator class.
+	4.2		Create the usual Scanner class.
+	4.3		Create as many other double variables as necessary (actually, 3 doubles).
+	4.4		Prompt the user for a number.
+	4.5		Prompt the user for another number.
+	4.6		Call the add method and get the result
+	4.7		Display the result to the user.
+	4.8		Call the add method and get the result
+	4.9		Display the result to the user.
+	4.10	Call the subtract method and get the result
+	4.11	Display the result to the user
+	4.12	Display the result to the user.
+	
+==============================================================================================================================
+==============================================================================================================================
+Directions:
+
+When the above works, have me check you off.
+==============================================================================================================================
+==============================================================================================================================
+
+
+
