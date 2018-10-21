@@ -1,0 +1,9 @@
+Roy,Biv
+Lab,Lab 1,Lab 1,87
+Lab,Lab 2,Lab 2,88
+Participation,Participation 1,Participation 1,100
+Quiz,Quiz 1,Quiz 1,76
+Quiz,Quiz 2,Quiz 2,97
+Exam,Exam 1,Exam 1,97
+Exam,Exam 2,Exam 2,87
+Homework,Homework 1,Homework 1,97
