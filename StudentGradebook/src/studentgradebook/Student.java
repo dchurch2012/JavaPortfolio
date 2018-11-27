@@ -4,7 +4,7 @@ import java.util.*;
 import java.io.*;
 import java.lang.Object;
 
-class Student
+public class Student
 {
 	protected ArrayList<Assignment>[] assignList;
 
