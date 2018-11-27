@@ -92,7 +92,7 @@ public class CalculatorDemo {
 	  */
 	public static double getDouble() {
 		String choice = new String("|");
-		Validate validate = new Validate();
+		ValidateData validate = new ValidateData();
 		double doubleValue = 0;
 		boolean done = false;
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
