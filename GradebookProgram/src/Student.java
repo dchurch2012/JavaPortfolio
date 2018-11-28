@@ -75,40 +75,20 @@ public class Student extends Person {
 		// Assignment Grades
 		//-------------------------------------------------------------------
 		
-		// Display user message
-		System.out.println("Enter Assignment Grades");
-		
-		//Get data
-		grades[ASSIGNMENTS] = calc.getNumericData02();
-		
-		//Compute Average
-		gradeAverage[ASSIGNMENTS] =  calc.computeAverage(grades[ASSIGNMENTS] );
+		// Add Code here.....
 
 		//-------------------------------------------------------------------
 		// Survey Grades
 		//-------------------------------------------------------------------
 		
-		// Display user message
-		System.out.println("Enter Survey Grade");
-		
-		//Get data
-		grades[SURVEY] = calc.getNumericData02();
-		
-		//Compute Average
-		gradeAverage[SURVEY] =  calc.computeAverage(grades[SURVEY] );
+		// Add Code here.....
+
 
 		//-------------------------------------------------------------------
 		// Group Presentation Grades
 		//-------------------------------------------------------------------
 		
-		// Display user message
-		System.out.println("Enter Group Presentation Grade");
-		
-		//Get data
-		grades[GROUP_PRESENTATION] = calc.getNumericData02();
-		
-		//Compute Average
-		gradeAverage[GROUP_PRESENTATION ] =  calc.computeAverage(grades[GROUP_PRESENTATION ] );
+		// Add Code here.....
 
 		
 	}
